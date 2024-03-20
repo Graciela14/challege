@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img src="img/Logo.png">
+        </header>
+        <main class="contenedor">
+
+        <textarea class="datos"  placeholder="Ingrese la información" id="datos" rows="10" cols="50"></textarea>
+
+
+        <div class="botones">
+            <input type="button" id="cifrar"   value="Cifrar" onclick="cifrar();">
+            <input type="button"  id="descifrar" value="Descifrar" onclick="descifrar();">
+
+        </div>
+
+        <div class="muneco">
+            <div class="armado">
+            <img src="img/diamod.png" id="diamod"  alt="diamante">
+            <img src="img/hand_right.png" id="hand_right">
+            <img src="img/hand_left.png" id="hand_left">
+
+            <img src="img/heda.png" id="heda">
+            <img src="img/torso.png" id="torso">
+            <img src="img/leg_right.png" id="leg_right">
+            <img src="img/leg_left.png" id="leg_left">
+            <img src="img/background.png" id="background">
+
+            
+        </div>
+        
+        </div>
+
+        </div>
+
+        <div class="texto">
+            <p class="mensaje">
+            <h2 class="frase1"></h2>
+            <p class="frase2">.</p>
+            
+            <input type="button"  id="copiar" value="Copiar" onclick="copiar();">
+
+            
+        </div>
+        
+
+    </main>
+    <script src="app.js"></script>
+
+    </body>
+</html>
